@@ -1,2 +1,6 @@
 version = '1.2.1'
 apply plugin: 'java'
+
+application {
+    mainClass = 'HelloWorld.HelloWorld' 
+}
