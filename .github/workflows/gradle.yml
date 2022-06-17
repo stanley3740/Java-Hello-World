@@ -33,4 +33,4 @@ jobs:
     - name: Execute Gradle build
       run: gradle build
     - name: Run app
-      run: gradle run
+      run: ./gradlew run
