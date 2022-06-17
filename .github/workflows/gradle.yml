@@ -30,7 +30,6 @@ jobs:
         distribution: 'temurin'
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
-    - name: Execute Gradle build
-      run: gradle build
-    - name: Run app
-      run: ./gradlew run
+    - run: gradle build
+    - run: gradle wrapper
+    - run: ./gradlew run
