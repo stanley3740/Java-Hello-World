@@ -1,6 +1,10 @@
 version = '1.2.1'
 apply plugin: 'java'
 
+plugins {
+    id 'application' 
+}
+
 repositories {
     mavenCentral() 
 }
